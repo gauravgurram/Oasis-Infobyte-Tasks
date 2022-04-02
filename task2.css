@@ -1,0 +1,90 @@
+
+.back{
+    border: 1px solid rgb(0, 0, 0);
+    position: absolute;
+    top: 0;
+    left: 30%;
+    width: 40%;
+    height: 100%;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 0%);
+    color: white;
+   border-color: rgb(255, 255, 255);
+   overflow-x: auto;
+}      
+#title{
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    font-size: xx-large;
+    font-family: 'Courgette', cursive;
+  
+}  
+#dateof{
+    position: absolute;
+    top: 13%;
+    left: 17%;
+    font-family: 'Gelasio', serif;
+}
+
+
+
+
+#img{
+    position: absolute;
+    top: 5%;
+    left: 55%;
+    width: 40%;
+    height: 30%;
+    border-radius: 70px;
+
+}
+
+#thought{
+    position: absolute;
+    width: 40%;
+    top: 20%;
+    left: 8%;
+    font-size: large;
+    font-family: 'Caveat', cursive;
+}
+
+
+
+.details{
+    border: 1px solid rgb(0, 0, 0);
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    width: 90%;
+    height: 47%;
+    box-sizing: border-box;
+    border-radius: 20px;
+    background-color: hsl(0, 0%, 0%);
+    color: white;
+   border-color: rgb(0, 0, 0);
+}
+
+#title1{
+    position: absolute;
+   left: 5%;
+    font-size: xx-large;
+    font-family: 'Courgette', cursive;
+}
+
+#para{
+    position: absolute;
+    top: 16%;
+    left: 5%;
+    right: 5%;
+    width: 90%;
+    height: 73%;
+    font-size: large;
+    font-family: 'Courgette', cursive;
+    overflow: auto;
+}
+.fa-linkedin {  
+  background: #007bb5;  
+  color: white;  
+}  
