@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<head>
+<title>Calculator</title>
+<link rel="stylesheet" href="calculator.css">
+<script src="script.js"></script>
+</head>
+<body style="background-color:powderblue;">
+<div class="calculator">
+    <div class="calculator-screen">
+      <input type="text" class="answer" id="answer" maxlength="10" disabled hidden/>
+    <input type="text" class="inputdigit" id="inputdigit" maxlength="10" disabled  />
+    </div>
+    <div class="calculator-buttons" >
+
+        <button class="operator" id="opening" onclick="operator('(')">(</button>
+        <button class="operator" id="closing" onclick="operator(')')">)</button>
+        <button class="operator" id="addsubstract" onclick="prev()">Prev</button>
+        <button class="operator" id="delete" onclick="del('del')">DEL</button>
+
+
+        <button class="clear" id="clear" onclick="clr()">AC</button>
+
+
+        <button class="number" id="7" onclick="digits('7')">7</button>
+        <button class="number" id="8" onclick="digits('8')">8</button>
+        <button class="number" id="9" onclick="digits('9')">9</button>
+        <button class="operator" id="percent" onclick="operator('%')">%</button>
+
+
+        <button class="operator" id="square" onclick="sqrt()">√</button>
+        <button class="number" id="4" onclick="digits('4')">4</button>
+        <button class="number" id="5" onclick="digits('5')">5</button>
+        <button class="number" id="6" onclick="digits('6')">6</button>
+        <button class="operator" id="multiply" onclick="operator('*')">x</button>
+        <button class="operator" id="divide" onclick="operator('/')">÷</button>
+
+
+        <button class="number" id="1" onclick="digits('1')">1</button>
+        <button class="number" id="2" onclick="digits('2')">2</button>
+        <button class="number" id="3" onclick="digits('3')">3</button>
+        <button class="operator" id="add" onclick="operator('+')">+</button>
+        <button class="operator" id="substract" onclick="operator('-')">-</button>
+
+
+        <button class="operator" id="fullstop" onclick="operator('.')">.</button>
+        <button class="number" id="0" onclick="digits('0')">0</button>
+        <button class="operator" id="answer" onclick="power()">^</button>
+      
+        <button class="equals" id="equals" onclick="equals('=')">=</button>
+    </div>
+</div>
+</body>
+</html>
